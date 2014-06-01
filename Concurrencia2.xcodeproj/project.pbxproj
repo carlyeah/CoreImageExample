@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77E1008C93869EE694FEB78A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E102EFA438DCB248847814 /* InfoPlist.strings */; };
+		77E100C9BB92E7BA4C16A4E9 /* CLYViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77E108F1655AB731371027D2 /* CLYViewController.xib */; };
+		77E100D3CC24013B3042AA0F /* Concurrencia2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E10EDB7554503E3BAD02DC /* Concurrencia2Tests.m */; };
+		77E104E2CE3FE1CACE85DE4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E102E5D48A1CFF324A3C8C /* UIKit.framework */; };
+		77E104F48BB1952BADA767A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E1047D571EE2721077404A /* InfoPlist.strings */; };
+		77E10647873984D2698D247A /* CLYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E1083EA573E56E3D0D6ECF /* CLYViewController.m */; };
+		77E1071B7A0E34782D9C04D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E10EE943AF3FF1771E7302 /* main.m */; };
+		77E1079BF488E2609D91534D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E102E5D48A1CFF324A3C8C /* UIKit.framework */; };
+		77E107A4F9099B2004C6FDDC /* CLYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E102FAE982A6D7AD6614F7 /* CLYAppDelegate.m */; };
+		77E10917BC0A1515F87491F3 /* CLYCoreImageFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E1047619AFB167B8336741 /* CLYCoreImageFilter.m */; };
+		77E109BAF5446E039C3A9B1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77E10C4773516C2C40D2E36C /* Images.xcassets */; };
+		77E10B0C3819E191F13B1922 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E1027E784485200E943757 /* Foundation.framework */; };
+		77E10B63DDA63A6DD0CDC6FD /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 77E10021459F86DA79BADF90 /* .gitignore */; };
+		77E10B943E0FBFBB2E8BCBF0 /* CLYImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E100AAFE235CB3CF730102 /* CLYImageDownloader.m */; };
+		77E10B9F8E7F1A640A6D7ECC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E1056D29B02C456A6C33C4 /* CoreGraphics.framework */; };
+		77E10BC5F1A48B385988F6B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E1027E784485200E943757 /* Foundation.framework */; };
+		77E10F9372C9A1D47666270F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E10ED49E730222AC61ED8A /* XCTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77E10D2CBF810991E583F917 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77E106CA33145FB954E216CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77E105CAE25EB99EBDFB1E5A;
+			remoteInfo = Concurrencia2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77E10021459F86DA79BADF90 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
+		77E10076362036D338FE7470 /* CLYImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLYImageDownloader.h; sourceTree = "<group>"; };
+		77E100AAFE235CB3CF730102 /* CLYImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLYImageDownloader.m; sourceTree = "<group>"; };
+		77E1027E784485200E943757 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		77E102E5D48A1CFF324A3C8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		77E102FAE982A6D7AD6614F7 /* CLYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLYAppDelegate.m; sourceTree = "<group>"; };
+		77E1036B9F91CCAE0FB8F7C4 /* Concurrencia2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "Concurrencia2Tests-Info.plist"; sourceTree = "<group>"; };
+		77E1047619AFB167B8336741 /* CLYCoreImageFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLYCoreImageFilter.m; sourceTree = "<group>"; };
+		77E1056D29B02C456A6C33C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		77E107A445514BAE311573F6 /* Concurrencia2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concurrencia2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77E1083EA573E56E3D0D6ECF /* CLYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLYViewController.m; sourceTree = "<group>"; };
+		77E10854AC9746AA9CBBF743 /* Concurrencia2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Concurrencia2-Prefix.pch"; sourceTree = "<group>"; };
+		77E108F1655AB731371027D2 /* CLYViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CLYViewController.xib; sourceTree = "<group>"; };
+		77E1090EDCDBE820449078D7 /* CLYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLYAppDelegate.h; sourceTree = "<group>"; };
+		77E109296F1B14B10329E2EC /* Concurrencia2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "Concurrencia2-Info.plist"; sourceTree = "<group>"; };
+		77E10B5C2C298BC7925385C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		77E10C4773516C2C40D2E36C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		77E10D8F4C3833D4E7A7D79A /* CLYCoreImageFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLYCoreImageFilter.h; sourceTree = "<group>"; };
+		77E10DB8B0FB63C16F73A79E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		77E10ED49E730222AC61ED8A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		77E10EDB7554503E3BAD02DC /* Concurrencia2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Concurrencia2Tests.m; sourceTree = "<group>"; };
+		77E10EE5CE1F6044BA2AA79A /* Concurrencia2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Concurrencia2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77E10EE943AF3FF1771E7302 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77E10F9A425EAC568A39ED15 /* CLYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLYViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77E106EFD0596FF364C5E2EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E10F9372C9A1D47666270F /* XCTest.framework in Frameworks */,
+				77E10B0C3819E191F13B1922 /* Foundation.framework in Frameworks */,
+				77E1079BF488E2609D91534D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77E108361B082643EB62784C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E10BC5F1A48B385988F6B9 /* Foundation.framework in Frameworks */,
+				77E10B9F8E7F1A640A6D7ECC /* CoreGraphics.framework in Frameworks */,
+				77E104E2CE3FE1CACE85DE4E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77E100B9FBE104EDD1D4B22B /* Concurrencia2 */ = {
+			isa = PBXGroup;
+			children = (
+				77E10E8AD5EBDC4A60936F13 /* Supporting Files */,
+				77E1090EDCDBE820449078D7 /* CLYAppDelegate.h */,
+				77E102FAE982A6D7AD6614F7 /* CLYAppDelegate.m */,
+				77E10C4773516C2C40D2E36C /* Images.xcassets */,
+				77E10F9A425EAC568A39ED15 /* CLYViewController.h */,
+				77E1083EA573E56E3D0D6ECF /* CLYViewController.m */,
+				77E108F1655AB731371027D2 /* CLYViewController.xib */,
+				77E106019CFDFBFF0C76A653 /* Operations */,
+			);
+			path = Concurrencia2;
+			sourceTree = "<group>";
+		};
+		77E1014A980717D5A25FF4EC = {
+			isa = PBXGroup;
+			children = (
+				77E10956518989E23465E1E9 /* Products */,
+				77E1043FD04BD2CFB35C568D /* Frameworks */,
+				77E100B9FBE104EDD1D4B22B /* Concurrencia2 */,
+				77E10237F3438222C5EA5C32 /* Concurrencia2Tests */,
+				77E10021459F86DA79BADF90 /* .gitignore */,
+			);
+			sourceTree = "<group>";
+		};
+		77E10237F3438222C5EA5C32 /* Concurrencia2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				77E1024A2343A0704E415F2F /* Supporting Files */,
+				77E10EDB7554503E3BAD02DC /* Concurrencia2Tests.m */,
+			);
+			path = Concurrencia2Tests;
+			sourceTree = "<group>";
+		};
+		77E1024A2343A0704E415F2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77E1036B9F91CCAE0FB8F7C4 /* Concurrencia2Tests-Info.plist */,
+				77E102EFA438DCB248847814 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77E1043FD04BD2CFB35C568D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77E1027E784485200E943757 /* Foundation.framework */,
+				77E1056D29B02C456A6C33C4 /* CoreGraphics.framework */,
+				77E102E5D48A1CFF324A3C8C /* UIKit.framework */,
+				77E10ED49E730222AC61ED8A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77E106019CFDFBFF0C76A653 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				77E10076362036D338FE7470 /* CLYImageDownloader.h */,
+				77E100AAFE235CB3CF730102 /* CLYImageDownloader.m */,
+				77E10D8F4C3833D4E7A7D79A /* CLYCoreImageFilter.h */,
+				77E1047619AFB167B8336741 /* CLYCoreImageFilter.m */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		77E10956518989E23465E1E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77E107A445514BAE311573F6 /* Concurrencia2.app */,
+				77E10EE5CE1F6044BA2AA79A /* Concurrencia2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77E10E8AD5EBDC4A60936F13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77E109296F1B14B10329E2EC /* Concurrencia2-Info.plist */,
+				77E1047D571EE2721077404A /* InfoPlist.strings */,
+				77E10EE943AF3FF1771E7302 /* main.m */,
+				77E10854AC9746AA9CBBF743 /* Concurrencia2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77E105CAE25EB99EBDFB1E5A /* Concurrencia2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77E10387177B809D0AEB0218 /* Build configuration list for PBXNativeTarget "Concurrencia2" */;
+			buildPhases = (
+				77E1053D9BACD9FE32117787 /* Sources */,
+				77E108361B082643EB62784C /* Frameworks */,
+				77E107FE0387436E3385C4E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Concurrencia2;
+			productName = Concurrencia2;
+			productReference = 77E107A445514BAE311573F6 /* Concurrencia2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77E1098C663D146CCCE51D88 /* Concurrencia2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77E10ED432A6E26AC093CD67 /* Build configuration list for PBXNativeTarget "Concurrencia2Tests" */;
+			buildPhases = (
+				77E10CED05830C489A9B404F /* Sources */,
+				77E106EFD0596FF364C5E2EC /* Frameworks */,
+				77E10EF621131F523709350D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77E10B0DA68BF1CB2E163534 /* PBXTargetDependency */,
+			);
+			name = Concurrencia2Tests;
+			productName = Concurrencia2Tests;
+			productReference = 77E10EE5CE1F6044BA2AA79A /* Concurrencia2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77E106CA33145FB954E216CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Carlyeah;
+			};
+			buildConfigurationList = 77E10A083369C69393CAA182 /* Build configuration list for PBXProject "Concurrencia2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 77E1014A980717D5A25FF4EC;
+			productRefGroup = 77E10956518989E23465E1E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77E105CAE25EB99EBDFB1E5A /* Concurrencia2 */,
+				77E1098C663D146CCCE51D88 /* Concurrencia2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77E107FE0387436E3385C4E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E104F48BB1952BADA767A9 /* InfoPlist.strings in Resources */,
+				77E109BAF5446E039C3A9B1C /* Images.xcassets in Resources */,
+				77E100C9BB92E7BA4C16A4E9 /* CLYViewController.xib in Resources */,
+				77E10B63DDA63A6DD0CDC6FD /* .gitignore in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77E10EF621131F523709350D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E1008C93869EE694FEB78A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77E1053D9BACD9FE32117787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E1071B7A0E34782D9C04D0 /* main.m in Sources */,
+				77E107A4F9099B2004C6FDDC /* CLYAppDelegate.m in Sources */,
+				77E10647873984D2698D247A /* CLYViewController.m in Sources */,
+				77E10B943E0FBFBB2E8BCBF0 /* CLYImageDownloader.m in Sources */,
+				77E10917BC0A1515F87491F3 /* CLYCoreImageFilter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77E10CED05830C489A9B404F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E100D3CC24013B3042AA0F /* Concurrencia2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77E10B0DA68BF1CB2E163534 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77E105CAE25EB99EBDFB1E5A /* Concurrencia2 */;
+			targetProxy = 77E10D2CBF810991E583F917 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77E102EFA438DCB248847814 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E10DB8B0FB63C16F73A79E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		77E1047D571EE2721077404A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E10B5C2C298BC7925385C5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77E1039BF5B9D2909101A38D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77E105E7B627EAD47FB779C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Concurrencia2/Concurrencia2-Prefix.pch";
+				INFOPLIST_FILE = "Concurrencia2/Concurrencia2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		77E10744FA5E8B317581FB45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Concurrencia2/Concurrencia2-Prefix.pch";
+				INFOPLIST_FILE = "Concurrencia2Tests/Concurrencia2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		77E107F2C37A769CB0B88993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77E10964B4278A84591711D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Concurrencia2/Concurrencia2-Prefix.pch";
+				INFOPLIST_FILE = "Concurrencia2/Concurrencia2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		77E10A3B9234BDEF6AF5F5CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Concurrencia2/Concurrencia2-Prefix.pch";
+				INFOPLIST_FILE = "Concurrencia2Tests/Concurrencia2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77E10387177B809D0AEB0218 /* Build configuration list for PBXNativeTarget "Concurrencia2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77E10964B4278A84591711D9 /* Debug */,
+				77E105E7B627EAD47FB779C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		77E10A083369C69393CAA182 /* Build configuration list for PBXProject "Concurrencia2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77E1039BF5B9D2909101A38D /* Debug */,
+				77E107F2C37A769CB0B88993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77E10ED432A6E26AC093CD67 /* Build configuration list for PBXNativeTarget "Concurrencia2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77E10744FA5E8B317581FB45 /* Debug */,
+				77E10A3B9234BDEF6AF5F5CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77E106CA33145FB954E216CF /* Project object */;
+}
